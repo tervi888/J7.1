@@ -45,6 +45,7 @@ public class StatsServiceTest {
         Assertions.assertEquals(expectedMaxMonth, actualMaxMonth);
 
     }
+
     @Test
     public void shouldBadMonth() {
         StatsService service = new StatsService();
@@ -54,6 +55,7 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expectedBadMonth, actualBadMonth);
     }
+
     @Test
     public void shouldGoodMonth() {
         StatsService service = new StatsService();
